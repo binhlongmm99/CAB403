@@ -10,7 +10,6 @@
 
 
 ## Notes
-## Notes
 ### 1. The number of child processes after 'n' folk():
 - General Rule: If you have 'n' fork() calls, the total number of processes (including the original parent) is 2^n. So the number of child processes is (2^n - 1):
     - 1 fork: Produces 1 child process, 2 processes in total.
@@ -22,7 +21,7 @@
 - Why: Each fork() call doubles the number of processes because every existing process (parent and children) will execute the fork() and create a new child process.
 
 
-### 2. The value of fd:
+### 2. The value of 'fd':
 - The value of fd is an array of two integers that represent the file descriptors for the pipe. When you create a pipe using the pipe(fd); function call, the operating system assigns two file descriptors:
     - fd[0]: This is the file descriptor for the read end of the pipe.
     - fd[1]: This is the file descriptor for the write end of the pipe.
