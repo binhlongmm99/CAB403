@@ -11,3 +11,4 @@
 - Aug 9: Add solutions to Prac 3
 - Aug 16: Add solutions to Prac 4
 - Aug 23: Add solutions to Prac 5
+- Aug 30: Add solutions to Prac 6 
