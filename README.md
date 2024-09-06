@@ -7,8 +7,4 @@
     - Content: [Problem description]
 
 ## Update
-- Aug 7: Add solutions to Pracs 1 + 2
-- Aug 9: Add solutions to Prac 3
-- Aug 16: Add solutions to Prac 4
-- Aug 23: Add solutions to Prac 5
-- Aug 30: Add solutions to Prac 6 
+- Sep 6: Add solutions to Prac 7 
