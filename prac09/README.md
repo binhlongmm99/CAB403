@@ -8,7 +8,7 @@
 - The 'reference' folder contains the solutions provided on Canvas. The solutions in this repository, however, use more descriptive variable names (in my opinion).
 
 ### 2. Gannt chart explanation
-- Case 2
+- Example 2
 |            |         |           t| 0  | 1  | 2  | 3  | 5  | 10 | 17 | 26 |
 |------------|---------|------------|----|----|----|----|----|----|----|----|
 | Process no | Arrival | Burst time |    |    |    |    |    |    |    |    |
