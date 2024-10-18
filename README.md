@@ -7,4 +7,4 @@
     - Content: [Problem description]
 
 ## Update
-- Oct 13: Add solutions to Prac 11 
+- Oct 18: Finish all Pracs for Semester 2, 2024

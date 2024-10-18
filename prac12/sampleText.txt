@@ -1,0 +1,6 @@
+What is a Random Access File?
+A random access file is a type of file structure that allows direct access to any record within the file, enabling efficient searching, updating, and retrieval of individual records. Unlike sequential access files where data is organized and accessed sequentially, random access files provide the ability to access records in any order based on their position or key.
+
+In a random access file, records are stored with a unique identifier or a specific position within the file. This identifier or position allows for direct access to a particular record without the need to traverse through the entire file. The file system maintains an index or data structure that facilitates efficient retrieval of records based on their identifiers or positions.
+
+Random access files are advantageous in scenarios where frequent direct access or modification of specific records is required. They are commonly used in applications that involve searching for specific data, updating specific records, or retrieving data based on specific criteria. Examples of applications that benefit from random access files include databases, file systems, and data storage systems.

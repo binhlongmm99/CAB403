@@ -1,0 +1,29 @@
+1. Sequential Access vs Random Access
+- Sequential access: data is organized and stored in a sequential order (order is important!)
+Eg: print the content of a file
+- Random access: data is organized and stored in a way that allows direct access to any record within the file
+Eg: print the content stored in index i, database
+
+
+2. 2 ways to allow 4,990 out of 5000 users to be able to access one file:
+- Create a group and assign 4990 users to it -> change the file's group to this group -> assign group permission to that file
+- Create a group of 10 users (not have access to the file) -> change the file's group to this group -> assign access permission to the file to the public and limited access permission to the group.
+
+UNIX’s protection mechanisms are designed to let users gain extra privileges (not designed to prevent users from reducing their own privileges)
+
+
+3. Mandatory locks vs Advisory locks
+- Mandatory locks: access is denied depending on locks held and requested
+- Advisory locks: processes can find status of locks and decide what to do
+
+Programs might be willing to tolerate concurrent access to a file without requiring the need to obtain locks and thereby guaranteeing mutual exclusion to the files.
+In such situations, the mandatory locks would limit the flexibility in how files could be accessed and might also increase the overheads associated with accessing files.
+
+4.Permission values
+-   Read (r) = 4
+    Write (w) = 2
+    Execute (x) = 1
+-   Owner access
+    Group access
+    Public access
+- chmod -v <value> <file>
